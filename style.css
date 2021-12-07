@@ -136,10 +136,6 @@ footer p {
 /* -------  Media Query ------- */
 @media all and (min-width: 480px) {
 
-  main img {
-    width: 25%;
-  }
-
   p {
     font-size: 14px;
     align-self: center;
@@ -154,12 +150,11 @@ footer p {
     flex-basis: 45%;
   }
 
-  main #ideas img {
-    width: 100%;
-  }
-
   .item-double {
     flex: 2;
   }
-
+  
+  ul {
+    font-size: 14px;
+  }
 }
