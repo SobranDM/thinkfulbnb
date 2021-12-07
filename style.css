@@ -136,6 +136,15 @@ footer p {
 /* -------  Media Query ------- */
 @media all and (min-width: 480px) {
 
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
   p {
     font-size: 14px;
     align-self: center;
@@ -150,10 +159,36 @@ footer p {
     flex-basis: 45%;
   }
 
+  main #host .item {
+    align-self: center;
+  }
+
+  main #stay .group {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  main #stay .item {
+    flex-direction: column;
+  }
+
+  form select,
+  form input {
+    height: auto;
+  }
+
+  input[type="date"] {
+    height: 20px;
+  }
+
+  form button {
+    width: 100%;
+  }
+
   .item-double {
     flex: 2;
   }
-  
+
   ul {
     font-size: 14px;
   }
