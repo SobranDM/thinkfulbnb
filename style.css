@@ -147,7 +147,6 @@ footer p {
 
   p {
     font-size: 14px;
-    align-self: center;
   }
 
   .group {
@@ -159,7 +158,12 @@ footer p {
     flex-basis: 45%;
   }
 
-  main #host .item {
+  .item {
+    align-self: center;
+  }
+
+  .item-double {
+    flex: 2;
     align-self: center;
   }
 
@@ -183,10 +187,6 @@ footer p {
 
   form button {
     width: 100%;
-  }
-
-  .item-double {
-    flex: 2;
   }
 
   ul {
