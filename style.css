@@ -62,7 +62,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 60px;
+  font-size: 48px;
   color: #fff;
 }
 
@@ -71,11 +71,15 @@ header nav ul {
   flex-direction: row;
   justify-content: center;
   padding-bottom: 20px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 header nav ul li {
   list-style-type: none;
+}
+
+header nav ul li:last-child {
+  padding-right: 10px;
 }
 
 header nav ul li a {
@@ -190,5 +194,13 @@ footer p {
 
   ul {
     font-size: 18px;
+  }
+
+  header nav ul li:last-child {
+    padding-right: 0px;
+  }
+
+  .logo {
+    font-size: 72px;
   }
 }
